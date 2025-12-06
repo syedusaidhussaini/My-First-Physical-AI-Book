@@ -1,0 +1,9 @@
+{
+  "label": "Module 1: Physical AI Fundamentals",
+  "position": 1,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Introduction to combining artificial intelligence with physical systems. Learners build understanding of sensor data processing, control systems, and basic AI inference on embedded hardware."
+  }
+}

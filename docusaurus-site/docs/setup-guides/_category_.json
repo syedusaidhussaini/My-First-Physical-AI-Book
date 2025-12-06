@@ -1,0 +1,9 @@
+{
+  "label": "Setup Guides",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step guides for setting up your hardware or simulator to work through the lessons."
+  }
+}

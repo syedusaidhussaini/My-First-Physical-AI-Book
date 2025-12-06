@@ -1,0 +1,9 @@
+{
+  "label": "Chapter 2: Control and Actuators",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn to control physical devices (motors, servos, LEDs) based on sensor inputs and logic. Understand feedback loops and how AI systems can make decisions that affect the physical world. Level: Intermediate"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Chapter 1: Sensors and Data Collection",
+  "position": 1,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn to capture and process sensor data from physical systems. This chapter covers the fundamentals of reading sensor inputs, filtering noise, and preparing data for AI applications. Level: Beginner"
+  }
+}

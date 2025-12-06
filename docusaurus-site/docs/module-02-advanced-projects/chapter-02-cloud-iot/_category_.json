@@ -1,0 +1,9 @@
+{
+  "label": "Chapter 2: Cloud Integration and IoT",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Connect your Physical AI systems to the cloud. Learn IoT protocols, data streaming, and remote monitoring."
+  }
+}
