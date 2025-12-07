@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd docusaurus-site && npm install && npm run build",
+  "outputDirectory": "docusaurus-site/build"
+}
