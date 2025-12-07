@@ -1,3 +1,7 @@
+/* ----------------------------- */
+/* Your Existing Styles (kept)   */
+/* ----------------------------- */
+
 .features {
   display: flex;
   align-items: center;
@@ -18,7 +22,7 @@
   transform: translateY(-5px);
 }
 
-/* Feature card styling */
+/* Original feature box */
 .feature {
   padding: 1.5rem;
   border-radius: 8px;
@@ -37,4 +41,112 @@
 [data-theme='dark'] .feature {
   background: rgba(30, 144, 255, 0.05);
   border-left-color: #4fa3ff;
+}
+
+/* -------------------------------- */
+/* 🔥 NEW PREMIUM UI STYLES ADDED   */
+/* -------------------------------- */
+
+.headerSection {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mainHeading {
+  font-size: 2.7rem;
+  color: #1e90ff;
+  font-weight: 700;
+}
+
+.subheading {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* CTA Box */
+.ctaBox {
+  margin: 3rem auto;
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+
+  background: linear-gradient(135deg, #1e90ff 0%, #4fa3ff 100%);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.ctaTitle {
+  color: white !important;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.ctaText {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: white;
+  color: #1e90ff !important;
+  font-weight: bold;
+  padding: 14px 35px;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.35);
+}
+
+.ctaButton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.45);
+}
+
+/* Premium Feature Card */
+.featureCard {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+
+  border-radius: 18px;
+  padding: 2rem;
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.featureTitle {
+  color: #1e90ff !important;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.featureDescription {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
+/* Dark Mode for Premium Cards */
+[data-theme='dark'] .featureCard {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }

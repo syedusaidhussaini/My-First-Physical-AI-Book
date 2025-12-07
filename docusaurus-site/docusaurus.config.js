@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Physical AI Book',
+        title: 'Human Robotic Physical AI Book',
         logo: {
           alt: 'Physical AI Logo',
           src: 'img/logo.svg',
@@ -93,7 +93,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Book',
+            label: 'Explore Modules',
           },
           {
             href: 'https://github.com/physical-ai-community/physical-ai-book',
@@ -180,10 +180,10 @@ const config = {
         ],
         copyright: `
           <div style="text-align: center; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
-            <p style="margin: 0.5rem 0;"><strong>Physical AI: A Hands-On Learning Guide</strong></p>
+            <p style="margin: 0.5rem 0;"><strong>Human RoboticPhysical AI: A Hands-On Learning Guide</strong></p>
             <p style="margin: 0.5rem 0; opacity: 0.8;">Build intelligent systems that sense, think, and act.</p>
             <p style="margin: 1rem 0; opacity: 0.7;">Copyright © ${new Date().getFullYear()} Physical AI Community. Licensed under CC-BY-4.0.</p>
-            <p style="margin: 0.5rem 0; opacity: 0.6;">Built with ❤️ using Docusaurus</p>
+            <p style="margin: 0.5rem 0; opacity: 0.6;">Built with Syed Usaid using Docusaurus</p>
           </div>
         `,
       },

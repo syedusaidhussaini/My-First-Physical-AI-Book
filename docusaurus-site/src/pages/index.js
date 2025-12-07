@@ -14,7 +14,7 @@ function HomepageHeader() {
       <div className={styles.heroContent}>
         <div className={styles.heroEmoji}>🤖</div>
         <Heading as="h1" className={styles.heroTitle}>
-          Physical AI Learning Platform
+          Physical AI Learning Platform By Usaid
         </Heading>
         <p className={styles.heroSubtitle}>
           Learn to build intelligent physical systems that sense, think, and act.
